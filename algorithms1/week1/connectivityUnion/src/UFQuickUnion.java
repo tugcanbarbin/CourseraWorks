@@ -1,8 +1,8 @@
 import java.util.ArrayList;
 
-public class UFBetterUnion {
+public class UFQuickUnion {
     private ArrayList<Integer> idOfElements;
-    UFBetterUnion(int x)
+    UFQuickUnion(int x)
     {
         this.idOfElements = new ArrayList<>(x);
         int i = 0;

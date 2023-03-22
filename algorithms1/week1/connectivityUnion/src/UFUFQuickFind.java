@@ -1,9 +1,9 @@
 import java.util.ArrayList;
 
-public class UF {
+public class UFUFQuickFind {
 
     private ArrayList<Integer> idOfElements;
-    UF(int x)
+    UFUFQuickFind(int x)
     {
         this.idOfElements = new ArrayList<>(x);
         int i = 0;
